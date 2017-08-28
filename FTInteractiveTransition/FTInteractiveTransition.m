@@ -53,7 +53,7 @@
 
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed
 {
-    self.dismissAnimator.direction = self.interactiveAnimator.interactionInProgress ? self.interactiveAnimator.direction : FTDismissAnimatorDirectionHorizontal;
+    self.dismissAnimator.direction = self.interactiveAnimator.interactionInProgress ? self.interactiveAnimator.direction : FTDismissAnimatorDirectionVertical;
     return self.dismissAnimator;
 }
 
