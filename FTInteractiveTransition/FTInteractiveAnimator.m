@@ -38,7 +38,6 @@
     [view addGestureRecognizer:gesture];
 }
 
-
 #pragma mark - UIGestureRecognizerDelegate
 
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer

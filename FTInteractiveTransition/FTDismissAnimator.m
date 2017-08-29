@@ -51,8 +51,6 @@
                               completion:^(BOOL finished) {
                                   [transitionContext completeTransition:(!transitionContext.transitionWasCancelled)];
                               }];
-    
-    
 }
 
 @end

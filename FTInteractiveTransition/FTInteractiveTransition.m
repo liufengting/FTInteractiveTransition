@@ -34,6 +34,8 @@
     return _interactiveAnimator;
 }
 
+#pragma mark - public methods
+
 - (void)wireEdgePanGestureToViewController:(UIViewController *)viewController
 {
     [self.interactiveAnimator wireEdgePanGestureToViewController:viewController];
