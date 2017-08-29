@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
           It's just a viewController transition that I wrote for future projects.
                    DESC
   s.author             = { "liufengting" => "wo157121900@me.com" }
-  s.homepage     = "https://github.com/liufengting/FTIndicator"
+  s.homepage     = "https://github.com/liufengting/FTInteractiveTransition"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.social_media_url   = "https://twitter.com/liufengting"
   s.platform     = :ios
