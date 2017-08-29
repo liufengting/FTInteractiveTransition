@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A36A66A1F540BA30007BD40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A36A6691F540BA30007BD40 /* main.m */; };
+		2A36A66D1F540BA30007BD40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A36A66C1F540BA30007BD40 /* AppDelegate.m */; };
+		2A36A6701F540BA30007BD40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A36A66F1F540BA30007BD40 /* ViewController.m */; };
+		2A36A6731F540BA30007BD40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A36A6711F540BA30007BD40 /* Main.storyboard */; };
+		2A36A6751F540BA30007BD40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A36A6741F540BA30007BD40 /* Assets.xcassets */; };
+		2A36A6781F540BA30007BD40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A36A6761F540BA30007BD40 /* LaunchScreen.storyboard */; };
+		2AFF7B0F1F555DEC00A04A40 /* FTDismissAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF7B071F555DEC00A04A40 /* FTDismissAnimator.m */; };
+		2AFF7B101F555DEC00A04A40 /* FTInteractiveAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF7B091F555DEC00A04A40 /* FTInteractiveAnimator.m */; };
+		2AFF7B111F555DEC00A04A40 /* FTInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF7B0B1F555DEC00A04A40 /* FTInteractiveTransition.m */; };
+		2AFF7B121F555DEC00A04A40 /* FTPresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF7B0E1F555DEC00A04A40 /* FTPresentAnimator.m */; };
+		2AFF7B151F555EFD00A04A40 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF7B141F555EFD00A04A40 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A36A6651F540BA30007BD40 /* FTInteractiveTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTInteractiveTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A36A6691F540BA30007BD40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A36A66B1F540BA30007BD40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A36A66C1F540BA30007BD40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A36A66E1F540BA30007BD40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A36A66F1F540BA30007BD40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A36A6721F540BA30007BD40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A36A6741F540BA30007BD40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A36A6771F540BA30007BD40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A36A6791F540BA30007BD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AFF7B061F555DEC00A04A40 /* FTDismissAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTDismissAnimator.h; sourceTree = "<group>"; };
+		2AFF7B071F555DEC00A04A40 /* FTDismissAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTDismissAnimator.m; sourceTree = "<group>"; };
+		2AFF7B081F555DEC00A04A40 /* FTInteractiveAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTInteractiveAnimator.h; sourceTree = "<group>"; };
+		2AFF7B091F555DEC00A04A40 /* FTInteractiveAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTInteractiveAnimator.m; sourceTree = "<group>"; };
+		2AFF7B0A1F555DEC00A04A40 /* FTInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTInteractiveTransition.h; sourceTree = "<group>"; };
+		2AFF7B0B1F555DEC00A04A40 /* FTInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTInteractiveTransition.m; sourceTree = "<group>"; };
+		2AFF7B0C1F555DEC00A04A40 /* FTITMarcos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTITMarcos.h; sourceTree = "<group>"; };
+		2AFF7B0D1F555DEC00A04A40 /* FTPresentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPresentAnimator.h; sourceTree = "<group>"; };
+		2AFF7B0E1F555DEC00A04A40 /* FTPresentAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPresentAnimator.m; sourceTree = "<group>"; };
+		2AFF7B131F555EFD00A04A40 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2AFF7B141F555EFD00A04A40 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A36A6621F540BA30007BD40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A36A65C1F540BA30007BD40 = {
+			isa = PBXGroup;
+			children = (
+				2A36A6671F540BA30007BD40 /* FTInteractiveTransition */,
+				2A36A6661F540BA30007BD40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A36A6661F540BA30007BD40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A36A6651F540BA30007BD40 /* FTInteractiveTransition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A36A6671F540BA30007BD40 /* FTInteractiveTransition */ = {
+			isa = PBXGroup;
+			children = (
+				2AFF7B051F555DEC00A04A40 /* FTInteractiveTransition */,
+				2A36A66B1F540BA30007BD40 /* AppDelegate.h */,
+				2A36A66C1F540BA30007BD40 /* AppDelegate.m */,
+				2A36A66E1F540BA30007BD40 /* ViewController.h */,
+				2A36A66F1F540BA30007BD40 /* ViewController.m */,
+				2AFF7B131F555EFD00A04A40 /* DetailViewController.h */,
+				2AFF7B141F555EFD00A04A40 /* DetailViewController.m */,
+				2A36A6711F540BA30007BD40 /* Main.storyboard */,
+				2A36A6741F540BA30007BD40 /* Assets.xcassets */,
+				2A36A6761F540BA30007BD40 /* LaunchScreen.storyboard */,
+				2A36A6791F540BA30007BD40 /* Info.plist */,
+				2A36A6681F540BA30007BD40 /* Supporting Files */,
+			);
+			path = FTInteractiveTransition;
+			sourceTree = "<group>";
+		};
+		2A36A6681F540BA30007BD40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A36A6691F540BA30007BD40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AFF7B051F555DEC00A04A40 /* FTInteractiveTransition */ = {
+			isa = PBXGroup;
+			children = (
+				2AFF7B0C1F555DEC00A04A40 /* FTITMarcos.h */,
+				2AFF7B0A1F555DEC00A04A40 /* FTInteractiveTransition.h */,
+				2AFF7B0B1F555DEC00A04A40 /* FTInteractiveTransition.m */,
+				2AFF7B081F555DEC00A04A40 /* FTInteractiveAnimator.h */,
+				2AFF7B091F555DEC00A04A40 /* FTInteractiveAnimator.m */,
+				2AFF7B0D1F555DEC00A04A40 /* FTPresentAnimator.h */,
+				2AFF7B0E1F555DEC00A04A40 /* FTPresentAnimator.m */,
+				2AFF7B061F555DEC00A04A40 /* FTDismissAnimator.h */,
+				2AFF7B071F555DEC00A04A40 /* FTDismissAnimator.m */,
+			);
+			name = FTInteractiveTransition;
+			path = ../../FTInteractiveTransition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A36A6641F540BA30007BD40 /* FTInteractiveTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A36A67C1F540BA30007BD40 /* Build configuration list for PBXNativeTarget "FTInteractiveTransition" */;
+			buildPhases = (
+				2A36A6611F540BA30007BD40 /* Sources */,
+				2A36A6621F540BA30007BD40 /* Frameworks */,
+				2A36A6631F540BA30007BD40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTInteractiveTransition;
+			productName = FTInteractiveTransition;
+			productReference = 2A36A6651F540BA30007BD40 /* FTInteractiveTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A36A65D1F540BA30007BD40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LiuFengting;
+				TargetAttributes = {
+					2A36A6641F540BA30007BD40 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E83AC9WR2F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2A36A6601F540BA30007BD40 /* Build configuration list for PBXProject "FTInteractiveTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A36A65C1F540BA30007BD40;
+			productRefGroup = 2A36A6661F540BA30007BD40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A36A6641F540BA30007BD40 /* FTInteractiveTransition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A36A6631F540BA30007BD40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A36A6781F540BA30007BD40 /* LaunchScreen.storyboard in Resources */,
+				2A36A6751F540BA30007BD40 /* Assets.xcassets in Resources */,
+				2A36A6731F540BA30007BD40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A36A6611F540BA30007BD40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFF7B121F555DEC00A04A40 /* FTPresentAnimator.m in Sources */,
+				2A36A6701F540BA30007BD40 /* ViewController.m in Sources */,
+				2A36A66D1F540BA30007BD40 /* AppDelegate.m in Sources */,
+				2AFF7B151F555EFD00A04A40 /* DetailViewController.m in Sources */,
+				2A36A66A1F540BA30007BD40 /* main.m in Sources */,
+				2AFF7B111F555DEC00A04A40 /* FTInteractiveTransition.m in Sources */,
+				2AFF7B0F1F555DEC00A04A40 /* FTDismissAnimator.m in Sources */,
+				2AFF7B101F555DEC00A04A40 /* FTInteractiveAnimator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A36A6711F540BA30007BD40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A36A6721F540BA30007BD40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A36A6761F540BA30007BD40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A36A6771F540BA30007BD40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A36A67A1F540BA30007BD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A36A67B1F540BA30007BD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A36A67D1F540BA30007BD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E83AC9WR2F;
+				INFOPLIST_FILE = FTInteractiveTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liufengting.FTInteractiveTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "";
+			};
+			name = Debug;
+		};
+		2A36A67E1F540BA30007BD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E83AC9WR2F;
+				INFOPLIST_FILE = FTInteractiveTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liufengting.FTInteractiveTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A36A6601F540BA30007BD40 /* Build configuration list for PBXProject "FTInteractiveTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A36A67A1F540BA30007BD40 /* Debug */,
+				2A36A67B1F540BA30007BD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A36A67C1F540BA30007BD40 /* Build configuration list for PBXNativeTarget "FTInteractiveTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A36A67D1F540BA30007BD40 /* Debug */,
+				2A36A67E1F540BA30007BD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A36A65D1F540BA30007BD40 /* Project object */;
+}
